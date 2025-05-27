@@ -27,7 +27,12 @@ SECRET_KEY = 'django-insecure-*$*9(k@lx3l^lf4z=wp)*wvc@+hpsv5jzsh)of40qkwgl0k9l=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['seu-app.herokuapp.com']
+ALLOWED_HOSTS = [
+    'escuta-cidada-back.onrender.com',
+    'localhost',  # útil para testes locais
+    '127.0.0.1',
+]
+
 
 
 # Application definition
