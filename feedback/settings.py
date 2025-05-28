@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-import os # o os vai ser utilizado para o banco de dados no Render
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-*$*9(k@lx3l^lf4z=wp)*wvc@+hpsv5jzsh)of40qkwgl0k9l=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'escuta-cidada-back.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 
@@ -82,13 +82,15 @@ WSGI_APPLICATION = 'feedback.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('escuta_cidada'),
-        'USER': os.getenv('gr157'),
-        'PASSWORD': os.getenv('Gnxcrt35TNWh2zAcovOufigRxilynWLx'),
-        'HOST': os.getenv('dpg-d0r5md3uibrs73cuar30-a'),
-        'PORT': os.getenv('5432'),
+        'NAME': 'Escuta-Cidada',
+        'USER': 'postgres',
+        'PASSWORD': 'gr157',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
+
+
 
 
 
