@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-*$*9(k@lx3l^lf4z=wp)*wvc@+hpsv5jzsh)of40qkwgl0k9l=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'escuta-cidada-back.onrender.com']
 
 
 
@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'feedback.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Escuta-Cidada',
-        'USER': 'postgres',
-        'PASSWORD': 'gr157',
-        'HOST': 'localhost',
+        'NAME': 'escuta_cidada',
+        'USER': 'gr157',
+        'PASSWORD': 'Gnxcrt35TNWh2zAcovOufigRxilynWLx',
+        'HOST': 'dpg-d0r5md3uibrs73cuar30-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
