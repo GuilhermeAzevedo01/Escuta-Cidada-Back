@@ -4,10 +4,10 @@ Este repositório contém a parte de backend da aplicação **Escuta Cidadã** e
 
 ## Tecnologias Utilizadas
 
-**Python** - 
-**PostgreSQL** - 
-**Render** - 
-**Firebase** - 
+- **Python** -  
+- **PostgreSQL** -  
+- **Render** -  
+- **Firebase** -  
 
 ## Funcionalidades do BackEnd
 
@@ -15,8 +15,8 @@ Este repositório contém a parte de backend da aplicação **Escuta Cidadã** e
 
 ## Equipe Responsável
 
-Akyles – Scrum Master
-Guilherme Azevedo – Full Stack
-Guilherme Henrique – Front-End e Prototipação
-Vitor Gabriel – Testes de Software
-Natasha Teixeira – Documentação e UX/UI
+- Akyles – Scrum Master  
+- Guilherme Azevedo – Full Stack  
+- Guilherme Henrique – Front-End e Prototipação  
+- Vitor Gabriel – Testes de Software  
+- Natasha Teixeira – Documentação e UX/UI
