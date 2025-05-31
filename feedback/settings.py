@@ -88,6 +88,10 @@ DATABASES = {
         'PASSWORD': 'Gnxcrt35TNWh2zAcovOufigRxilynWLx',
         'HOST': 'dpg-d0r5md3uibrs73cuar30-a.oregon-postgres.render.com',
         'PORT': '5432',
+        'OPTIONS': {
+    'connect_timeout': 10,  # segundos
+        },
+
     }
 }
 
@@ -145,6 +149,8 @@ REST_FRAMEWORK = { # Isso permite que a API tenha uma interface amigável no nav
 }
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+
 
 
 
