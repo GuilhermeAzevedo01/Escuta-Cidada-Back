@@ -21,7 +21,8 @@ class Feedback(models.Model):
     idade = models.CharField(max_length=10, choices=IDADE_CHOICES, blank=False, null=False)
     telefone = models.CharField(max_length=50)
     empresa = models.CharField(max_length=50)
-    linha = models.IntegerField()
+    linha = models.CharField(max_length=50)
+    numberbus = models.IntegerField(default=1) # default=1 Isso garante que o campo nunca estará vazio
     horario = models.TimeField()
     data = models.DateField()
     avtransport = models.IntegerField(validators=[MinValueValidator(1), MaxValueValidator(5)],
@@ -34,6 +35,6 @@ class Feedback(models.Model):
     criado_em = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"{self.nome} - {self.email} - {self.genero} - {self.idade} - {self.telefone} - {self.linha} - {self.horario} - {self.data} - {self.avtransport} - {self.avsite}"
+        return f"{self.nome} - {self.email} - {self.genero} - {self.idade} - {self.telefone} - {self.linha} - {self.numberbus} - {self.horario} - {self.data} - {self.avtransport} - {self.avsite}"
 
 
