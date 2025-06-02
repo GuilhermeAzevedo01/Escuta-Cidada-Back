@@ -4,19 +4,26 @@ Este repositório contém a parte de backend da aplicação **Escuta Cidadã** e
 
 ## Tecnologias Utilizadas
 
-- **Python** -  
+- **Django** -
+- **Python** -
+- **Render** - 
 - **PostgreSQL** -  
-- **Render** -  
-- **Firebase** -  
+  
+ 
 
 ## Funcionalidades do BackEnd
 
-
+- **API para recebimento de feedbacks** -
+- **Armazenamento de dados no PostgreSQL** -
+- **Estrutura modular com Django Apps** -
+- **Validação dos dados enviados** -
+- **Painel de administração com Django Admin** -
+- **Deploy via Render** -
 
 ## Equipe Responsável
 
 - Akyles – Scrum Master  
 - Guilherme Azevedo – Full Stack  
-- Guilherme Henrique – Front-End e Prototipação  
+- Guilherme Henrique – Figma e Prototipação  
 - Vitor Gabriel – Testes de Software  
 - Natasha Teixeira – Documentação e UX/UI
