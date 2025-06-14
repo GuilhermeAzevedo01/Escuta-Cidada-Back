@@ -22,28 +22,35 @@ Para rodar o back-end do *Escuta Cidadã* localmente, siga os passos abaixo.
 ### 1. Clonar o Repositório
 
 Clone o repositório usando o Git:
-
+```
 git clone https://github.com/GuilhermeAzevedo01/Escuta-Cidada-Back.git
-
+```
 ## 2. Navegar até o Diretório do Projeto
+```
 cd Escuta-Cidada-Back
-
+```
 ## 3. Criar Ambiente Virtual
+```
 feedback/scripts/activate 
-
+```
 ## 4. Instalar as Dependências
+```
 pip install -r requirements.txt
-
+```
 ## 5. Configurar o Banco de Dados
 Por padrão, o projeto utiliza PostgreSQL. Para testes locais, você pode configurar o banco no settings.py
 
 ## 6. Rodar as Migrações
+```
 python manage.py makemigrations
+```
+```
 python manage.py migrate
-
+```
 ## 7. Iniciar o Servidor
+```
 python manage.py runserver
-
+```
 
 ## Funcionalidades do BackEnd
 
